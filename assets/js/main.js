@@ -29,7 +29,3 @@ function formatTime(time) {
 
 countdown();
 setInterval(countdown, 1000);
-
-window.oncontextmenu = function() {
-    return false;
-}
