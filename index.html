@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="assets/img/logo.png" rel="icon">
+        <link rel="stylesheet" href="assets/librerias/bootstrap.min.css"> <!--* Libraries Bootstrap -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<title> Countdown Timer </title>
+	</head>
+
+	<body>
+
+		<header>
+			<nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
+				<a class="navbar-brand" href="index.html"> Countdown Timer </a>
+				<img src="assets/img/img-nav.gif" height="50" class="d-inline-block align-top" alt="mdb logo">  
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+				
+				<div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+					<ul class="navbar-nav ml-auto nav-flex-icons">
+						<li class="nav-item"> <a class="nav-link waves-effect waves-light" target="_blank" href="https://github.com/Alejandro-190107" style="color: white;"> <i class="fab fa-github-square"></i> </a> </li>
+						<li class="nav-item"> <a class="nav-link waves-effect waves-light" href="#" style="color: white;"> <i class="fab fa-linkedin"></i></a> </li>
+						<li class="nav-item"> <a class="nav-link waves-effect waves-light" target="_blank" href="#" style="color: white;"> <i class="fas fa-globe"></i></a> </li>
+	  				</ul>
+				</div>
+
+  			</nav>
+		</header>
+
+		<!-- container -->
+        <div class="container">	
+			<!-- card -->
+			<div class="card" style="  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+				<!--Card image-->
+				<img class="card-img-top" src="assets/img/qatar.png" alt="Card image cap">
+				<!--Card image-->
+				<!--Card content-->
+				<div class="card-body">
+					<!-- d-block -->
+					<div class="d-block d-md-flex">
+						<!-- card -->
+						<div class="card" style="box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;">
+							<!-- card-body -->
+							<div class="card-body">
+								<p class="pb-3 font-weight-bold"> <i class="fas fa-futbol"></i> Cuenta Regresiva <i class="fas fa-futbol"></i> </p>
+								<!-- cont-temporizador -->
+								<div class="cont-temporizador">
+
+									<div class="bloque">
+										<div class="dias" id="days">00</div>
+										<p> <i class="fas fa-calendar-day"></i> DÍAS </p>
+									</div>
+									<div class="bloque">
+										<div class="horas" id="hours">--</div>
+										<p> <i class="fas fa-hourglass"></i>  HORAS </p>
+									</div>
+									<div class="bloque">
+										<div class="minutos" id="mins">--</div>
+										<p> <i class="fas fa-clock"></i>  MINUTOS </p>
+									</div>
+									<div class="bloque">
+										<div class="segundos" id="seconds">--</div>
+										<p> <i class="fas fa-stopwatch"></i> SEGUNDOS </p>
+									</div>
+
+								</div>
+								<!-- cont-temporizador -->
+							</div>
+							<!-- card-body -->
+						</div>
+						<!-- card -->
+					</div>
+					<!-- d-block -->
+				</div>
+				<!--Card content-->
+			</div>
+			<!-- card -->
+		</div>
+		<!-- container -->
+
+		<footer class="page-footer font-small blue fixed-bottom">
+			<div class="footer-copyright text-center text-light py-3"> <b><i class="far fa-copyright"></i> 2022 Creado Por Alejandro López</b></div>
+		</footer>
+
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+		<script src="assets/librerias/jquery-3.6.0.min.js"></script> <!--! Libraries jquery -->
+        <script src="assets/librerias/popper.min.js"></script> <!--! Libraries Icons -->
+        <script src="assets/librerias/bootstrap.min.js"></script> <!--! Libraries Bootstrap -->
+        <script src="https://kit.fontawesome.com/a81368914c.js"></script> <!--! Libraries Font Of fontawesome -->
+        <script defer src="assets/js/main.js"></script>
+
+	</body>
+</html>
