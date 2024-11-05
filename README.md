@@ -16,6 +16,6 @@ It is an easy-to-use tool that allows you to see a countdown clock that shows ho
 
 ## <p align="left" style="color: #80cbc4;"> Screenshot Project 💻 </p>
 
-🔶 [Project Website](https://alejandro-lopez.futuretecware.com/Countdown-Timer-Qatar/index.html)
+🔶 [Project Website](https://alejandro-190107.github.io/Countdown-Timer/)
 
 ![Screenshot](assets/img/Screenshot.png)
